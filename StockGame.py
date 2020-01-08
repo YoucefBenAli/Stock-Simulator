@@ -322,7 +322,7 @@ class HomePage(tk.Frame):
 
 
    
-#Creates accounts page (Youcef B and Logan)
+#Creates accounts page
 class Accounts(tk.Frame):
     
     def __init__(self, master, controller):
@@ -360,7 +360,7 @@ class Accounts(tk.Frame):
         def Withdraw():
             pass
         #withdrawbbut = ttk.Button(self, text = "Withdraw", command = withdrawmoney)
-#Creates settings page (Youcef B and Logan)
+#Creates settings page
 class Settings(tk.Frame):
     
     def __init__(self, master, controller):
